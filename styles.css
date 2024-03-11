@@ -105,5 +105,11 @@ li:hover {
 }
 
 .hyperLinks {
-  border-color: #000000;
+  padding-right: 35%;
+  padding-left: 35%;
+
+}
+.hyperLinks > li:hover {
+  background-color: #a7c6f1;
+  cursor: pointer;
 }
