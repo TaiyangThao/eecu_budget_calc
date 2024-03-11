@@ -13,12 +13,15 @@
     <section>
         <h1>EECU Budget Calculator</h1>
     </section>
-  <ul style="text-align: center;">
-    <li><a href="BC1.html">House</a></li>
-    <li><a href="BC2.html">Transportation</a></li>
-    <li><a href="BC3.html">Education</a></li>
-    <li><a href="BC4.html">Personal</a></li>
-    <li><a href="BC5.html">Savings</a></li>
+    <div class="hyperLinks">
+        <ul style="text-align: center;">
+            <a href="BC1.html">House</a></li>
+            <a href="BC2.html">Transportation</a></li>
+            <a href="BC3.html">Education</a></li>
+            <a href="BC4.html">Personal</a></li>
+            <a href="BC5.html">Savings</a></li>
+    </div>
+    <div class="02"></div>
 
     <hr>
     <section>
@@ -26,97 +29,97 @@
         <div class="container">
             <h1>EECU Budget Calculator</h1>
             <form id="budgetForm">
-              <label for="monthlyIncome">Monthly Income ($):</label>
-              <input type="number" id="monthlyIncome" required>
-              
-              <label for="monthlyExpenses">Monthly Expenses ($):</label>
-              <input type="number" id="monthlyExpenses" required>
-              
-              <label for="savingsGoal">Savings Goal ($):</label>
-              <input type="number" id="savingsGoal" required>
-              
-              <label for="careerSelect">Select Your Career:</label>
-        <div class="careerOptions">
-            <ul id="careerList">
-                <li data-salary="63247">Accountant</li>
-                <li data-salary="60663">Advance Tractor/Trailer Driver</li>
-                <li data-salary="78585">Agricultural Engineer</li>
-                <li data-salary="53795">Architect</li>
-                <li data-salary="52000">Auto Tech/Mechanic</li>
-                <li data-salary="64761">Aviation Tech. Mechanic</li>
-                <li data-salary="56640">Biologist</li>
-                <li data-salary="40320">Bus Driver</li>
-                <li data-salary="65762">Business Development Officer</li>
-                <li data-salary="69807">Business Manager</li>
-                <li data-salary="78020">CNC Manufacturing</li>
-                <li data-salary="54010">Carpenter</li>
-                <li data-salary="69382">Chef</li>
-                <li data-salary="58808">Chemist</li>
-                <li data-salary="59488">Civil Engineering Technician</li>
-                <li data-salary="50200">Commercial Driver</li>
-                <li data-salary="48000">Computer Technician</li>
-                <li data-salary="51000">Correctional Officer</li>
-                <li data-salary="41000">Cosmetologist</li>
-                <li data-salary="72000">Credit Union/Bank Manager</li>
-                <li data-salary="43000">Daycare Director</li>
-                <li data-salary="154000">Dentist</li>
-                <li data-salary="62000">Detective</li>
-                <li data-salary="60000">Diesel Tech/Mechanic</li>
-                <li data-salary="170000">Doctor/Physician</li>
-                <li data-salary="64000">Electrician</li>
-                <li data-salary="83000">Electronic Engineer</li>
-                <li data-salary="46000">EMT</li>
-                <li data-salary="80000">Energy Management PG&E</li>
-                <li data-salary="71000">Engineer</li>
-                <li data-salary="69300">Environmental Scientist</li>
-                <li data-salary="67000">Fashion Designer</li>
-                <li data-salary="72000">Fire Fighter</li>
-                <li data-salary="61000">Forest Ranger</li>
-                <li data-salary="59000">Graphic/Media Designer</li>
-                <li data-salary="61000">H/C HVAC</li>
-                <li data-salary="85000">Highway Patrol</li>
-                <li data-salary="56000">Home Inspector</li>
-                <li data-salary="48000">Industrial Mechanic</li>
-                <li data-salary="63000">Interior Designer</li>
-                <li data-salary="75000">Investment Analyst</li>
-                <li data-salary="53000">Lab Technician</li>
-                <li data-salary="46000">Landscaper Horticulture</li>
-                <li data-salary="93000">lawyer</li>
-                <li data-salary="85000">Marketing/Sales Manager</li>
-                <li data-salary="57000">Media/Communications</li>
-                <li data-salary="56000">Medical RepairTech.</li>
-                <li data-salary="53000">Military</li>
-                <li data-salary="80000">Nurse</li>
-                <li data-salary="57000">Nutritionist</li>
-                <li data-salary="78500">Oceanographer</li>
-                <li data-salary="70000">Pastor</li>
-                <li data-salary="60000">PG&E ATT Technician</li>
-                <li data-salary="110000">Pharmacist</li>
-                <li data-salary="46000">Photographer</li>
-                <li data-salary="82400">Physical Therapist</li>
-                <li data-salary="50600">Pilot Commercial</li>
-                <li data-salary="60320">Plumber</li>
-                <li data-salary="57000">Police Officer</li>
-                <li data-salary="91000">Principal</li>
-                <li data-salary="56000">Probation Officer</li>
-                <li data-salary="86500">Psychologist</li>
-                <li data-salary="39000">Retail Sales Associate</li>
-                <li data-salary="76200">Social Worker</li>
-                <li data-salary="60320">Solar Energy Tech.</li>
-                <li data-salary="57600">Teacher</li>
-                <li data-salary="55000">UPS/Fed Ex Driver</li>
-                <li data-salary="112000">Veterinarian</li>
-                <li data-salary="66000">Welder/Metal Specialist</li>
-                <li data-salary="66700">Wind EnergyTechnician</li>
-              </ul>
+                <label for="monthlyIncome">Monthly Income ($):</label>
+                <input type="number" id="monthlyIncome" required>
 
-        </div>
+                <label for="monthlyExpenses">Monthly Expenses ($):</label>
+                <input type="number" id="monthlyExpenses" required>
+
+                <label for="savingsGoal">Savings Goal ($):</label>
+                <input type="number" id="savingsGoal" required>
+
+                <label for="careerSelect">Select Your Career:</label>
+                <div class="careerOptions">
+                    <ul id="careerList">
+                        <li data-salary="63247">Accountant</li>
+                        <li data-salary="60663">Advance Tractor/Trailer Driver</li>
+                        <li data-salary="78585">Agricultural Engineer</li>
+                        <li data-salary="53795">Architect</li>
+                        <li data-salary="52000">Auto Tech/Mechanic</li>
+                        <li data-salary="64761">Aviation Tech. Mechanic</li>
+                        <li data-salary="56640">Biologist</li>
+                        <li data-salary="40320">Bus Driver</li>
+                        <li data-salary="65762">Business Development Officer</li>
+                        <li data-salary="69807">Business Manager</li>
+                        <li data-salary="78020">CNC Manufacturing</li>
+                        <li data-salary="54010">Carpenter</li>
+                        <li data-salary="69382">Chef</li>
+                        <li data-salary="58808">Chemist</li>
+                        <li data-salary="59488">Civil Engineering Technician</li>
+                        <li data-salary="50200">Commercial Driver</li>
+                        <li data-salary="48000">Computer Technician</li>
+                        <li data-salary="51000">Correctional Officer</li>
+                        <li data-salary="41000">Cosmetologist</li>
+                        <li data-salary="72000">Credit Union/Bank Manager</li>
+                        <li data-salary="43000">Daycare Director</li>
+                        <li data-salary="154000">Dentist</li>
+                        <li data-salary="62000">Detective</li>
+                        <li data-salary="60000">Diesel Tech/Mechanic</li>
+                        <li data-salary="170000">Doctor/Physician</li>
+                        <li data-salary="64000">Electrician</li>
+                        <li data-salary="83000">Electronic Engineer</li>
+                        <li data-salary="46000">EMT</li>
+                        <li data-salary="80000">Energy Management PG&E</li>
+                        <li data-salary="71000">Engineer</li>
+                        <li data-salary="69300">Environmental Scientist</li>
+                        <li data-salary="67000">Fashion Designer</li>
+                        <li data-salary="72000">Fire Fighter</li>
+                        <li data-salary="61000">Forest Ranger</li>
+                        <li data-salary="59000">Graphic/Media Designer</li>
+                        <li data-salary="61000">H/C HVAC</li>
+                        <li data-salary="85000">Highway Patrol</li>
+                        <li data-salary="56000">Home Inspector</li>
+                        <li data-salary="48000">Industrial Mechanic</li>
+                        <li data-salary="63000">Interior Designer</li>
+                        <li data-salary="75000">Investment Analyst</li>
+                        <li data-salary="53000">Lab Technician</li>
+                        <li data-salary="46000">Landscaper Horticulture</li>
+                        <li data-salary="93000">lawyer</li>
+                        <li data-salary="85000">Marketing/Sales Manager</li>
+                        <li data-salary="57000">Media/Communications</li>
+                        <li data-salary="56000">Medical RepairTech.</li>
+                        <li data-salary="53000">Military</li>
+                        <li data-salary="80000">Nurse</li>
+                        <li data-salary="57000">Nutritionist</li>
+                        <li data-salary="78500">Oceanographer</li>
+                        <li data-salary="70000">Pastor</li>
+                        <li data-salary="60000">PG&E ATT Technician</li>
+                        <li data-salary="110000">Pharmacist</li>
+                        <li data-salary="46000">Photographer</li>
+                        <li data-salary="82400">Physical Therapist</li>
+                        <li data-salary="50600">Pilot Commercial</li>
+                        <li data-salary="60320">Plumber</li>
+                        <li data-salary="57000">Police Officer</li>
+                        <li data-salary="91000">Principal</li>
+                        <li data-salary="56000">Probation Officer</li>
+                        <li data-salary="86500">Psychologist</li>
+                        <li data-salary="39000">Retail Sales Associate</li>
+                        <li data-salary="76200">Social Worker</li>
+                        <li data-salary="60320">Solar Energy Tech.</li>
+                        <li data-salary="57600">Teacher</li>
+                        <li data-salary="55000">UPS/Fed Ex Driver</li>
+                        <li data-salary="112000">Veterinarian</li>
+                        <li data-salary="66000">Welder/Metal Specialist</li>
+                        <li data-salary="66700">Wind EnergyTechnician</li>
+                    </ul>
+
+                </div>
     </section>
     <button type="submit">Calculate Budget</button>
-  </form>
-  
-  <div id="result"></div>
-</div>
+    </form>
+
+    <div id="result"></div>
+    </div>
 
 
     <section>
@@ -160,7 +163,7 @@
 
 
     <div class="piechart"></div>
-    
+
 </body>
 
 </html>
